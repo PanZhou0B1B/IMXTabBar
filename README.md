@@ -54,7 +54,7 @@ custom TabBar:自定义TabBar控件。
 
 	//初始Tabbar选中态（本例index：0）
     IMX_Show_TabBar_AtIndex(0);
-}
+	}
 	```
 	
 3. AppDelegate.m中启动设置：
