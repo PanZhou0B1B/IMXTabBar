@@ -1,6 +1,14 @@
 # IMXTabBar
 custom TabBar:自定义TabBar控件。
 
+###### 功能汇总：
+
+1. 基础TabBar功能。
+2. KVO切换TabBar items。
+3. 红点展示任意Tabbar items。
+4. 网络加载TabBar items配置文件（TODO）。
+5. 自动TabBar items任一图片展示方式（TODO）。
+
 ## 一、效果图：
 
 ![img](imgs/imxTabBar.gif)
@@ -72,7 +80,7 @@ custom TabBar:自定义TabBar控件。
 
     [window makeKeyAndVisible];
     return YES;
-}
+	}
 	```
 	
 #### # 3. 导航问题：
