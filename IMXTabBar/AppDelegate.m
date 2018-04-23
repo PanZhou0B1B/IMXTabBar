@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TabaBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    window.backgroundColor = [UIColor whiteColor];
+    self.window = window;
+
+    TabaBarViewController* ctrl = [[TabaBarViewController alloc] init];
+    UINavigationController* rootNavi = [[UINavigationController alloc] initWithRootViewController:ctrl];
+    window.rootViewController = rootNavi;
+
+    [window makeKeyAndVisible];
     return YES;
 }
 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>selected</key>
+		<true/>
+		<key>pageClass</key>
+		<string>HomeViewController</string>
+		<key>rootNavi</key>
+		<string>UINavigationController</string>
+		<key>itemImg</key>
+		<string>dh_home_normal.png</string>
+		<key>itemSelectedImg</key>
+		<string>dh_home_high.png</string>
+		<key>itemTitle</key>
+		<string>Home</string>
+	</dict>
+	<dict>
+		<key>selected</key>
+		<false/>
+		<key>pageClass</key>
+		<string>OrderViewController</string>
+		<key>rootNavi</key>
+		<string>UINavigationController</string>
+		<key>itemImg</key>
+		<string>dh_order_normal.png</string>
+		<key>itemSelectedImg</key>
+		<string>dh_order_high.png</string>
+		<key>itemTitle</key>
+		<string>Order</string>
+	</dict>
+	<dict>
+		<key>selected</key>
+		<false/>
+		<key>pageClass</key>
+		<string>MsgViewController</string>
+		<key>rootNavi</key>
+		<string>UINavigationController</string>
+		<key>itemImg</key>
+		<string>dh_msg_normal.png</string>
+		<key>itemSelectedImg</key>
+		<string>dh_msg_high.png</string>
+		<key>itemTitle</key>
+		<string>Message</string>
+	</dict>
+	<dict>
+		<key>selected</key>
+		<false/>
+		<key>pageClass</key>
+		<string>ProfileViewController</string>
+		<key>rootNavi</key>
+		<string>UINavigationController</string>
+		<key>itemImg</key>
+		<string>dh_set_normal.png</string>
+		<key>itemSelectedImg</key>
+		<string>dh_set_high.png</string>
+		<key>itemTitle</key>
+		<string>Profile</string>
+	</dict>
+</array>
+</plist>

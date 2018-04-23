@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1284A812089E38F006C5001 /* TabaBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A802089E38F006C5001 /* TabaBarViewController.m */; };
+		A1284A832089EECA006C5001 /* TabbarConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1284A822089EECA006C5001 /* TabbarConfig.plist */; };
+		A1284A882089F054006C5001 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A872089F054006C5001 /* HomeViewController.m */; };
+		A1284A8B2089F077006C5001 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A8A2089F077006C5001 /* OrderViewController.m */; };
+		A1284A8E2089F083006C5001 /* MsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A8D2089F083006C5001 /* MsgViewController.m */; };
+		A1284A912089F090006C5001 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A902089F090006C5001 /* ProfileViewController.m */; };
+		A1284A95208D76C4006C5001 /* TabBarRouteKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A94208D76C4006C5001 /* TabBarRouteKit.m */; };
+		A1284A98208D794E006C5001 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A97208D794E006C5001 /* BaseViewController.m */; };
+		A1284A9B208D7D21006C5001 /* NextSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A9A208D7D21006C5001 /* NextSubViewController.m */; };
 		A1CFA2B72074D88C00DF279C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2B62074D88C00DF279C /* AppDelegate.m */; };
-		A1CFA2BA2074D88C00DF279C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2B92074D88C00DF279C /* ViewController.m */; };
-		A1CFA2BD2074D88C00DF279C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CFA2BB2074D88C00DF279C /* Main.storyboard */; };
 		A1CFA2BF2074D88C00DF279C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CFA2BE2074D88C00DF279C /* Assets.xcassets */; };
 		A1CFA2C22074D88C00DF279C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CFA2C02074D88C00DF279C /* LaunchScreen.storyboard */; };
 		A1CFA2C52074D88C00DF279C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2C42074D88C00DF279C /* main.m */; };
@@ -19,6 +26,7 @@
 		A1CFA2F22074D8F900DF279C /* IMXTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2EB2074D8F900DF279C /* IMXTabBarItem.m */; };
 		A1CFA2F32074D8F900DF279C /* IMXTabbarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2ED2074D8F900DF279C /* IMXTabbarItemModel.m */; };
 		A1CFA2F42074D8F900DF279C /* IMXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2F02074D8F900DF279C /* IMXTabBarViewController.m */; };
+		B324D92EC0F5BF5DE515C612 /* libPods-IMXTabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4CF2AC70AB504170543900 /* libPods-IMXTabBar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +47,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1284A7F2089E38F006C5001 /* TabaBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabaBarViewController.h; sourceTree = "<group>"; };
+		A1284A802089E38F006C5001 /* TabaBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabaBarViewController.m; sourceTree = "<group>"; };
+		A1284A822089EECA006C5001 /* TabbarConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TabbarConfig.plist; sourceTree = "<group>"; };
+		A1284A862089F054006C5001 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A1284A872089F054006C5001 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A1284A892089F077006C5001 /* OrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		A1284A8A2089F077006C5001 /* OrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		A1284A8C2089F083006C5001 /* MsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgViewController.h; sourceTree = "<group>"; };
+		A1284A8D2089F083006C5001 /* MsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgViewController.m; sourceTree = "<group>"; };
+		A1284A8F2089F090006C5001 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A1284A902089F090006C5001 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A1284A93208D76C4006C5001 /* TabBarRouteKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarRouteKit.h; sourceTree = "<group>"; };
+		A1284A94208D76C4006C5001 /* TabBarRouteKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarRouteKit.m; sourceTree = "<group>"; };
+		A1284A96208D794E006C5001 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A1284A97208D794E006C5001 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A1284A99208D7D21006C5001 /* NextSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextSubViewController.h; sourceTree = "<group>"; };
+		A1284A9A208D7D21006C5001 /* NextSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextSubViewController.m; sourceTree = "<group>"; };
 		A1CFA2B22074D88C00DF279C /* IMXTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMXTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CFA2B52074D88C00DF279C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1CFA2B62074D88C00DF279C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1CFA2B82074D88C00DF279C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1CFA2B92074D88C00DF279C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A1CFA2BC2074D88C00DF279C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1CFA2BE2074D88C00DF279C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1CFA2C12074D88C00DF279C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1CFA2C32074D88C00DF279C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +86,9 @@
 		A1CFA2EE2074D8F900DF279C /* IMXTabBarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTabBarKit.h; sourceTree = "<group>"; };
 		A1CFA2EF2074D8F900DF279C /* IMXTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTabBarViewController.h; sourceTree = "<group>"; };
 		A1CFA2F02074D8F900DF279C /* IMXTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTabBarViewController.m; sourceTree = "<group>"; };
+		A607C80BD275C24603C60B87 /* Pods-IMXTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMXTabBar/Pods-IMXTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		CCBD56100204BA8C72B3E05A /* Pods-IMXTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMXTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMXTabBar/Pods-IMXTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		EF4CF2AC70AB504170543900 /* libPods-IMXTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMXTabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B324D92EC0F5BF5DE515C612 /* libPods-IMXTabBar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,13 +117,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CEF769CE59F5CB5D9258D32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A607C80BD275C24603C60B87 /* Pods-IMXTabBar.debug.xcconfig */,
+				CCBD56100204BA8C72B3E05A /* Pods-IMXTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1284A842089EF39006C5001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1284A852089F037006C5001 /* Ctrls */ = {
+			isa = PBXGroup;
+			children = (
+				A1284A862089F054006C5001 /* HomeViewController.h */,
+				A1284A872089F054006C5001 /* HomeViewController.m */,
+				A1284A892089F077006C5001 /* OrderViewController.h */,
+				A1284A8A2089F077006C5001 /* OrderViewController.m */,
+				A1284A8C2089F083006C5001 /* MsgViewController.h */,
+				A1284A8D2089F083006C5001 /* MsgViewController.m */,
+				A1284A8F2089F090006C5001 /* ProfileViewController.h */,
+				A1284A902089F090006C5001 /* ProfileViewController.m */,
+				A1284A99208D7D21006C5001 /* NextSubViewController.h */,
+				A1284A9A208D7D21006C5001 /* NextSubViewController.m */,
+			);
+			path = Ctrls;
+			sourceTree = "<group>";
+		};
+		A1284A92208D7668006C5001 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A1284A93208D76C4006C5001 /* TabBarRouteKit.h */,
+				A1284A94208D76C4006C5001 /* TabBarRouteKit.m */,
+				A1284A96208D794E006C5001 /* BaseViewController.h */,
+				A1284A97208D794E006C5001 /* BaseViewController.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A1CFA2A92074D88C00DF279C = {
 			isa = PBXGroup;
 			children = (
+				A1284A852089F037006C5001 /* Ctrls */,
+				A1284A842089EF39006C5001 /* Resources */,
 				A1CFA2B42074D88C00DF279C /* IMXTabBar */,
 				A1CFA2CD2074D88C00DF279C /* IMXTabBarTests */,
 				A1CFA2D82074D88C00DF279C /* IMXTabBarUITests */,
 				A1CFA2B32074D88C00DF279C /* Products */,
+				3CEF769CE59F5CB5D9258D32 /* Pods */,
+				A5B27AF9BF780F28B45E566F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,16 +188,17 @@
 		A1CFA2B42074D88C00DF279C /* IMXTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				A1284A92208D7668006C5001 /* Utils */,
 				A1CFA2E72074D8F900DF279C /* IMXTabBarKit */,
 				A1CFA2B52074D88C00DF279C /* AppDelegate.h */,
 				A1CFA2B62074D88C00DF279C /* AppDelegate.m */,
-				A1CFA2B82074D88C00DF279C /* ViewController.h */,
-				A1CFA2B92074D88C00DF279C /* ViewController.m */,
-				A1CFA2BB2074D88C00DF279C /* Main.storyboard */,
 				A1CFA2BE2074D88C00DF279C /* Assets.xcassets */,
 				A1CFA2C02074D88C00DF279C /* LaunchScreen.storyboard */,
 				A1CFA2C32074D88C00DF279C /* Info.plist */,
 				A1CFA2C42074D88C00DF279C /* main.m */,
+				A1284A7F2089E38F006C5001 /* TabaBarViewController.h */,
+				A1284A802089E38F006C5001 /* TabaBarViewController.m */,
+				A1284A822089EECA006C5001 /* TabbarConfig.plist */,
 			);
 			path = IMXTabBar;
 			sourceTree = "<group>";
@@ -162,6 +237,14 @@
 			path = IMXTabBarKit;
 			sourceTree = "<group>";
 		};
+		A5B27AF9BF780F28B45E566F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CF2AC70AB504170543900 /* libPods-IMXTabBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1CFA2DE2074D88C00DF279C /* Build configuration list for PBXNativeTarget "IMXTabBar" */;
 			buildPhases = (
+				BB8AC4EF7711B9B58F35CFD8 /* [CP] Check Pods Manifest.lock */,
 				A1CFA2AE2074D88C00DF279C /* Sources */,
 				A1CFA2AF2074D88C00DF279C /* Frameworks */,
 				A1CFA2B02074D88C00DF279C /* Resources */,
+				727C4897D7A6E6804C5887D0 /* [CP] Embed Pods Frameworks */,
+				2BAA8BF4019C040790871B6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,8 +355,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1CFA2C22074D88C00DF279C /* LaunchScreen.storyboard in Resources */,
+				A1284A832089EECA006C5001 /* TabbarConfig.plist in Resources */,
 				A1CFA2BF2074D88C00DF279C /* Assets.xcassets in Resources */,
-				A1CFA2BD2074D88C00DF279C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,18 +376,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BAA8BF4019C040790871B6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMXTabBar/Pods-IMXTabBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727C4897D7A6E6804C5887D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMXTabBar/Pods-IMXTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8AC4EF7711B9B58F35CFD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMXTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1CFA2AE2074D88C00DF279C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1CFA2F12074D8F900DF279C /* IMXTabBar.m in Sources */,
+				A1284A98208D794E006C5001 /* BaseViewController.m in Sources */,
+				A1284A9B208D7D21006C5001 /* NextSubViewController.m in Sources */,
 				A1CFA2F32074D8F900DF279C /* IMXTabbarItemModel.m in Sources */,
-				A1CFA2BA2074D88C00DF279C /* ViewController.m in Sources */,
 				A1CFA2F22074D8F900DF279C /* IMXTabBarItem.m in Sources */,
 				A1CFA2C52074D88C00DF279C /* main.m in Sources */,
+				A1284A8B2089F077006C5001 /* OrderViewController.m in Sources */,
 				A1CFA2B72074D88C00DF279C /* AppDelegate.m in Sources */,
+				A1284A95208D76C4006C5001 /* TabBarRouteKit.m in Sources */,
+				A1284A812089E38F006C5001 /* TabaBarViewController.m in Sources */,
 				A1CFA2F42074D8F900DF279C /* IMXTabBarViewController.m in Sources */,
+				A1284A912089F090006C5001 /* ProfileViewController.m in Sources */,
+				A1284A8E2089F083006C5001 /* MsgViewController.m in Sources */,
+				A1284A882089F054006C5001 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,14 +481,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A1CFA2BB2074D88C00DF279C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1CFA2BC2074D88C00DF279C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1CFA2C02074D88C00DF279C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -462,6 +598,7 @@
 		};
 		A1CFA2DF2074D88C00DF279C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A607C80BD275C24603C60B87 /* Pods-IMXTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +612,7 @@
 		};
 		A1CFA2E02074D88C00DF279C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBD56100204BA8C72B3E05A /* Pods-IMXTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
