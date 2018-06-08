@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TabaBarViewController.h"
+#import "IMXTransitionKit.h"
 @interface AppDelegate ()
 
 @end
@@ -25,11 +26,20 @@
     UINavigationController* rootNavi = [[UINavigationController alloc] initWithRootViewController:ctrl];
     window.rootViewController = rootNavi;
 
+    [self transitionSetting:rootNavi];
+
+    [rootNavi setNavigationBarHidden:NO animated:NO];
     [window makeKeyAndVisible];
     return YES;
 }
 
+- (void)transitionSetting:(UINavigationController *)navi{
+    IMXUnionNaviDelegate *delegate = (IMXUnionNaviDelegate *)[IMXUnionNaviDelegate sharedInstance];
+    [delegate setupWithNavi:navi];
 
+    [IMXTransitionMgr regitstDefaultPushTransition:@"IMXPushParallaxTransition"];
+    [IMXTransitionMgr regitstDefaultPopTransition:@"IMXPopParallaxTransition"];
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

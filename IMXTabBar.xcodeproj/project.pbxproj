@@ -16,6 +16,17 @@
 		A1284A95208D76C4006C5001 /* TabBarRouteKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A94208D76C4006C5001 /* TabBarRouteKit.m */; };
 		A1284A98208D794E006C5001 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A97208D794E006C5001 /* BaseViewController.m */; };
 		A1284A9B208D7D21006C5001 /* NextSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284A9A208D7D21006C5001 /* NextSubViewController.m */; };
+		A1284AA1208F0C37006C5001 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AA0208F0C36006C5001 /* SubViewController.m */; };
+		A1284AA5208F0E53006C5001 /* IMXTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AA4208F0E53006C5001 /* IMXTitleView.m */; };
+		A1284ABE208F123A006C5001 /* IMXBaseNaviDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AA9208F123A006C5001 /* IMXBaseNaviDelegate.m */; };
+		A1284ABF208F123A006C5001 /* IMXUnionNaviDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AAB208F123A006C5001 /* IMXUnionNaviDelegate.m */; };
+		A1284AC0208F123A006C5001 /* IMXTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AAF208F123A006C5001 /* IMXTransitionManager.m */; };
+		A1284AC1208F123A006C5001 /* IMXTransitionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AB1208F123A006C5001 /* IMXTransitionModel.m */; };
+		A1284AC2208F123A006C5001 /* IMXPushPopParallaxTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AB4208F123A006C5001 /* IMXPushPopParallaxTransitions.m */; };
+		A1284AC3208F123A006C5001 /* IMXPushPopTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AB6208F123A006C5001 /* IMXPushPopTransitions.m */; };
+		A1284AC4208F123A006C5001 /* UINavigationController+IMXTransitionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284AB9208F123A006C5001 /* UINavigationController+IMXTransitionKit.m */; };
+		A1284AC5208F123A006C5001 /* UIView+IMXTransitionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284ABB208F123A006C5001 /* UIView+IMXTransitionKit.m */; };
+		A1284AC6208F123A006C5001 /* UIViewController+IMXTransitionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1284ABD208F123A006C5001 /* UIViewController+IMXTransitionKit.m */; };
 		A1CFA2B72074D88C00DF279C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA2B62074D88C00DF279C /* AppDelegate.m */; };
 		A1CFA2BF2074D88C00DF279C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CFA2BE2074D88C00DF279C /* Assets.xcassets */; };
 		A1CFA2C22074D88C00DF279C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CFA2C02074D88C00DF279C /* LaunchScreen.storyboard */; };
@@ -64,6 +75,29 @@
 		A1284A97208D794E006C5001 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		A1284A99208D7D21006C5001 /* NextSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextSubViewController.h; sourceTree = "<group>"; };
 		A1284A9A208D7D21006C5001 /* NextSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextSubViewController.m; sourceTree = "<group>"; };
+		A1284A9F208F0C35006C5001 /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		A1284AA0208F0C36006C5001 /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		A1284AA3208F0E53006C5001 /* IMXTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXTitleView.h; sourceTree = "<group>"; };
+		A1284AA4208F0E53006C5001 /* IMXTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMXTitleView.m; sourceTree = "<group>"; };
+		A1284AA8208F123A006C5001 /* IMXBaseNaviDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXBaseNaviDelegate.h; sourceTree = "<group>"; };
+		A1284AA9208F123A006C5001 /* IMXBaseNaviDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXBaseNaviDelegate.m; sourceTree = "<group>"; };
+		A1284AAA208F123A006C5001 /* IMXUnionNaviDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXUnionNaviDelegate.h; sourceTree = "<group>"; };
+		A1284AAB208F123A006C5001 /* IMXUnionNaviDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXUnionNaviDelegate.m; sourceTree = "<group>"; };
+		A1284AAC208F123A006C5001 /* IMXTransitionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTransitionKit.h; sourceTree = "<group>"; };
+		A1284AAE208F123A006C5001 /* IMXTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTransitionManager.h; sourceTree = "<group>"; };
+		A1284AAF208F123A006C5001 /* IMXTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTransitionManager.m; sourceTree = "<group>"; };
+		A1284AB0208F123A006C5001 /* IMXTransitionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTransitionModel.h; sourceTree = "<group>"; };
+		A1284AB1208F123A006C5001 /* IMXTransitionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTransitionModel.m; sourceTree = "<group>"; };
+		A1284AB3208F123A006C5001 /* IMXPushPopParallaxTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXPushPopParallaxTransitions.h; sourceTree = "<group>"; };
+		A1284AB4208F123A006C5001 /* IMXPushPopParallaxTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXPushPopParallaxTransitions.m; sourceTree = "<group>"; };
+		A1284AB5208F123A006C5001 /* IMXPushPopTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXPushPopTransitions.h; sourceTree = "<group>"; };
+		A1284AB6208F123A006C5001 /* IMXPushPopTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXPushPopTransitions.m; sourceTree = "<group>"; };
+		A1284AB8208F123A006C5001 /* UINavigationController+IMXTransitionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+IMXTransitionKit.h"; sourceTree = "<group>"; };
+		A1284AB9208F123A006C5001 /* UINavigationController+IMXTransitionKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+IMXTransitionKit.m"; sourceTree = "<group>"; };
+		A1284ABA208F123A006C5001 /* UIView+IMXTransitionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IMXTransitionKit.h"; sourceTree = "<group>"; };
+		A1284ABB208F123A006C5001 /* UIView+IMXTransitionKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IMXTransitionKit.m"; sourceTree = "<group>"; };
+		A1284ABC208F123A006C5001 /* UIViewController+IMXTransitionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IMXTransitionKit.h"; sourceTree = "<group>"; };
+		A1284ABD208F123A006C5001 /* UIViewController+IMXTransitionKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IMXTransitionKit.m"; sourceTree = "<group>"; };
 		A1CFA2B22074D88C00DF279C /* IMXTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMXTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CFA2B52074D88C00DF279C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1CFA2B62074D88C00DF279C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +180,8 @@
 				A1284A902089F090006C5001 /* ProfileViewController.m */,
 				A1284A99208D7D21006C5001 /* NextSubViewController.h */,
 				A1284A9A208D7D21006C5001 /* NextSubViewController.m */,
+				A1284A9F208F0C35006C5001 /* SubViewController.h */,
+				A1284AA0208F0C36006C5001 /* SubViewController.m */,
 			);
 			path = Ctrls;
 			sourceTree = "<group>";
@@ -161,9 +197,78 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		A1284AA2208F0E30006C5001 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				A1284AA3208F0E53006C5001 /* IMXTitleView.h */,
+				A1284AA4208F0E53006C5001 /* IMXTitleView.m */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		A1284AA6208F123A006C5001 /* IMXTransitionKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1284AA7208F123A006C5001 /* IMXNaviDelegates */,
+				A1284AAC208F123A006C5001 /* IMXTransitionKit.h */,
+				A1284AAD208F123A006C5001 /* IMXTransitionMgr */,
+				A1284AB2208F123A006C5001 /* IMXTransitions */,
+				A1284AB7208F123A006C5001 /* Utils */,
+			);
+			path = IMXTransitionKit;
+			sourceTree = "<group>";
+		};
+		A1284AA7208F123A006C5001 /* IMXNaviDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				A1284AA8208F123A006C5001 /* IMXBaseNaviDelegate.h */,
+				A1284AA9208F123A006C5001 /* IMXBaseNaviDelegate.m */,
+				A1284AAA208F123A006C5001 /* IMXUnionNaviDelegate.h */,
+				A1284AAB208F123A006C5001 /* IMXUnionNaviDelegate.m */,
+			);
+			path = IMXNaviDelegates;
+			sourceTree = "<group>";
+		};
+		A1284AAD208F123A006C5001 /* IMXTransitionMgr */ = {
+			isa = PBXGroup;
+			children = (
+				A1284AAE208F123A006C5001 /* IMXTransitionManager.h */,
+				A1284AAF208F123A006C5001 /* IMXTransitionManager.m */,
+				A1284AB0208F123A006C5001 /* IMXTransitionModel.h */,
+				A1284AB1208F123A006C5001 /* IMXTransitionModel.m */,
+			);
+			path = IMXTransitionMgr;
+			sourceTree = "<group>";
+		};
+		A1284AB2208F123A006C5001 /* IMXTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				A1284AB3208F123A006C5001 /* IMXPushPopParallaxTransitions.h */,
+				A1284AB4208F123A006C5001 /* IMXPushPopParallaxTransitions.m */,
+				A1284AB5208F123A006C5001 /* IMXPushPopTransitions.h */,
+				A1284AB6208F123A006C5001 /* IMXPushPopTransitions.m */,
+			);
+			path = IMXTransitions;
+			sourceTree = "<group>";
+		};
+		A1284AB7208F123A006C5001 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A1284AB8208F123A006C5001 /* UINavigationController+IMXTransitionKit.h */,
+				A1284AB9208F123A006C5001 /* UINavigationController+IMXTransitionKit.m */,
+				A1284ABA208F123A006C5001 /* UIView+IMXTransitionKit.h */,
+				A1284ABB208F123A006C5001 /* UIView+IMXTransitionKit.m */,
+				A1284ABC208F123A006C5001 /* UIViewController+IMXTransitionKit.h */,
+				A1284ABD208F123A006C5001 /* UIViewController+IMXTransitionKit.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A1CFA2A92074D88C00DF279C = {
 			isa = PBXGroup;
 			children = (
+				A1284AA6208F123A006C5001 /* IMXTransitionKit */,
+				A1284AA2208F0E30006C5001 /* UIs */,
 				A1284A852089F037006C5001 /* Ctrls */,
 				A1284A842089EF39006C5001 /* Resources */,
 				A1CFA2B42074D88C00DF279C /* IMXTabBar */,
@@ -432,20 +537,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1284AA1208F0C37006C5001 /* SubViewController.m in Sources */,
 				A1CFA2F12074D8F900DF279C /* IMXTabBar.m in Sources */,
 				A1284A98208D794E006C5001 /* BaseViewController.m in Sources */,
+				A1284ABF208F123A006C5001 /* IMXUnionNaviDelegate.m in Sources */,
 				A1284A9B208D7D21006C5001 /* NextSubViewController.m in Sources */,
+				A1284AA5208F0E53006C5001 /* IMXTitleView.m in Sources */,
 				A1CFA2F32074D8F900DF279C /* IMXTabbarItemModel.m in Sources */,
 				A1CFA2F22074D8F900DF279C /* IMXTabBarItem.m in Sources */,
 				A1CFA2C52074D88C00DF279C /* main.m in Sources */,
+				A1284AC5208F123A006C5001 /* UIView+IMXTransitionKit.m in Sources */,
+				A1284AC1208F123A006C5001 /* IMXTransitionModel.m in Sources */,
 				A1284A8B2089F077006C5001 /* OrderViewController.m in Sources */,
+				A1284AC3208F123A006C5001 /* IMXPushPopTransitions.m in Sources */,
+				A1284AC4208F123A006C5001 /* UINavigationController+IMXTransitionKit.m in Sources */,
 				A1CFA2B72074D88C00DF279C /* AppDelegate.m in Sources */,
 				A1284A95208D76C4006C5001 /* TabBarRouteKit.m in Sources */,
 				A1284A812089E38F006C5001 /* TabaBarViewController.m in Sources */,
+				A1284AC0208F123A006C5001 /* IMXTransitionManager.m in Sources */,
 				A1CFA2F42074D8F900DF279C /* IMXTabBarViewController.m in Sources */,
 				A1284A912089F090006C5001 /* ProfileViewController.m in Sources */,
+				A1284AC6208F123A006C5001 /* UIViewController+IMXTransitionKit.m in Sources */,
 				A1284A8E2089F083006C5001 /* MsgViewController.m in Sources */,
 				A1284A882089F054006C5001 /* HomeViewController.m in Sources */,
+				A1284ABE208F123A006C5001 /* IMXBaseNaviDelegate.m in Sources */,
+				A1284AC2208F123A006C5001 /* IMXPushPopParallaxTransitions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
